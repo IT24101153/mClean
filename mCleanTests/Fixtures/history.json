@@ -1,0 +1,110 @@
+{
+  "logs": {"operations": "/Users/me/Library/Logs/mole/operations.log", "deletions": "/Users/me/Library/Logs/mole/deletions.log"},
+  "limit": 6,
+  "sessions": [
+    {
+      "command": "uninstall",
+      "run_id": "20261014231031-17410-10367-18042",
+      "attribution": "run",
+      "started_at": "2026-10-14 23:10:31",
+      "ended_at": "2026-10-14 23:10:45",
+      "items": 1,
+      "size": "20.4MB",
+      "operation_count": 0,
+      "failed_tasks": 0,
+      "actions": {"removed": 0, "trashed": 0, "skipped": 0, "failed": 0, "rebuilt": 0, "other": 0}
+    },
+    {
+      "command": "purge",
+      "run_id": "20261014231026-15820-23028-7010",
+      "attribution": "run",
+      "started_at": "2026-10-14 23:10:26",
+      "ended_at": "2026-10-14 23:10:30",
+      "items": 12,
+      "size": "1.22GB",
+      "operation_count": 0,
+      "failed_tasks": 0,
+      "actions": {"removed": 0, "trashed": 0, "skipped": 0, "failed": 0, "rebuilt": 0, "other": 0}
+    },
+    {
+      "command": "optimize",
+      "run_id": "20261014231020-15014-14580-16288",
+      "attribution": "run",
+      "started_at": "2026-10-14 23:10:20",
+      "ended_at": "2026-10-14 23:10:26",
+      "items": 2,
+      "size": "0B",
+      "operation_count": 1,
+      "failed_tasks": 1,
+      "actions": {"removed": 0, "trashed": 0, "skipped": 0, "failed": 0, "rebuilt": 0, "other": 0}
+    },
+    {
+      "command": "clean",
+      "run_id": "20261014231003-10483-12778-28385",
+      "attribution": "run",
+      "started_at": "2026-10-14 23:10:03",
+      "ended_at": "2026-10-14 23:10:20",
+      "items": 153,
+      "size": "548.6MB",
+      "operation_count": 117,
+      "failed_tasks": 0,
+      "actions": {"removed": 0, "trashed": 0, "skipped": 117, "failed": 0, "rebuilt": 0, "other": 0}
+    },
+    {
+      "command": "uninstall",
+      "run_id": "20261014223019-2090-15535-16299",
+      "attribution": "run",
+      "started_at": "2026-10-14 22:30:19",
+      "ended_at": "2026-10-14 22:30:21",
+      "items": 0,
+      "size": "0B",
+      "operation_count": 0,
+      "failed_tasks": 0,
+      "actions": {"removed": 0, "trashed": 0, "skipped": 0, "failed": 0, "rebuilt": 0, "other": 0}
+    }
+  ],
+  "deletions": [
+    {
+      "timestamp": "2026-10-14T23:10:45+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 4,
+      "path": "/Users/me/Library/Preferences/com.nuebling.mac-mouse-fix.helper.plist"
+    },
+    {
+      "timestamp": "2026-10-14T23:10:45+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 60,
+      "path": "/Users/me/Library/HTTPStorages/com.nuebling.mac-mouse-fix.helper"
+    },
+    {
+      "timestamp": "2026-10-14T23:10:45+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 0,
+      "path": "/Users/me/Library/Caches/com.nuebling.mac-mouse-fix.helper"
+    },
+    {
+      "timestamp": "2026-10-14T23:10:45+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 4,
+      "path": "/Users/me/Library/Preferences/com.nuebling.mac-mouse-fix.plist"
+    },
+    {
+      "timestamp": "2026-10-14T23:10:45+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 12,
+      "path": "/Users/me/Library/Application Support/com.nuebling.mac-mouse-fix"
+    },
+    {
+      "timestamp": "2026-10-14T23:10:41+0530",
+      "mode": "trash",
+      "status": "dry-run",
+      "size_kb": 19808,
+      "path": "/Applications/Mac Mouse Fix.app"
+    }
+  ]
+}

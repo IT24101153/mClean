@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Archetype Cory Wong X.app.flare",
+    "bundle_id": "com.NeuralDSP.ArchetypeCoryWongX",
+    "source": "App",
+    "uninstall_name": "Archetype Cory Wong X.app.flare",
+    "path": "/Applications/Neural DSP/Archetype Cory Wong X.app",
+    "size": "199.9MB"
+  },
+  {
+    "name": "Archetype Nolly X",
+    "bundle_id": "com.NeuralDSP.ArchetypeNollyX",
+    "source": "App",
+    "uninstall_name": "Archetype Nolly X",
+    "path": "/Applications/Neural DSP/Archetype Nolly X.app",
+    "size": "209.2MB"
+  },
+  {
+    "name": "Mac Mouse Fix",
+    "bundle_id": "com.nuebling.mac-mouse-fix",
+    "source": "App",
+    "uninstall_name": "Mac Mouse Fix",
+    "path": "/Applications/Mac Mouse Fix.app",
+    "size": "20.3MB"
+  },
+  {
+    "name": "Sketch",
+    "bundle_id": "com.bohemiancoding.sketch3",
+    "source": "App",
+    "uninstall_name": "Sketch",
+    "path": "/Applications/Sketch.app",
+    "size": "198.7MB"
+  },
+  {
+    "name": "OBS Studio",
+    "bundle_id": "com.obsproject.obs-studio",
+    "source": "App",
+    "uninstall_name": "OBS Studio",
+    "path": "/Applications/OBS.app",
+    "size": "459.6MB"
+  },
+  {
+    "name": "Xcode",
+    "bundle_id": "com.apple.dt.Xcode",
+    "source": "App",
+    "uninstall_name": "Xcode",
+    "path": "/Applications/Xcode.app",
+    "size": "3.96GB"
+  },
+  {
+    "name": "ClipGrab",
+    "bundle_id": "de.clipgrab.ClipGrab",
+    "source": "App",
+    "uninstall_name": "ClipGrab",
+    "path": "/Applications/ClipGrab.app",
+    "size": "432.5MB"
+  },
+  {
+    "name": "LocalSend",
+    "bundle_id": "org.localsend.localsendApp",
+    "source": "App",
+    "uninstall_name": "LocalSend",
+    "path": "/Applications/LocalSend.app",
+    "size": "152.3MB"
+  }
+]

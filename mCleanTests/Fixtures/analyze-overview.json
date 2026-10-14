@@ -1,0 +1,76 @@
+{
+  "scan_status": "partial",
+  "path": "/",
+  "overview": true,
+  "entries": [
+    {
+      "scan_status": "partial",
+      "name": "Home",
+      "path": "/Users/me",
+      "size": 32288068181,
+      "is_dir": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "Applications",
+      "path": "/Applications",
+      "size": 31258694969,
+      "is_dir": true
+    },
+    {
+      "scan_status": "partial",
+      "name": "System Library",
+      "path": "/Library",
+      "size": 24922365952,
+      "is_dir": true
+    },
+    {
+      "scan_status": "partial",
+      "name": "User Library",
+      "path": "/Users/me/Library",
+      "size": 8447963136,
+      "is_dir": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "Xcode Simulators",
+      "path": "/Users/me/Library/Developer/CoreSimulator/Devices",
+      "size": 3272032256,
+      "is_dir": true,
+      "insight": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "Spotify Cache",
+      "path": "/Users/me/Library/Application Support/Spotify/PersistentCache",
+      "size": 76320768,
+      "is_dir": true,
+      "insight": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "Homebrew Cache",
+      "path": "/Users/me/Library/Caches/Homebrew",
+      "size": 38854656,
+      "is_dir": true,
+      "insight": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "Old Downloads (90d+)",
+      "path": "/Users/me/Downloads",
+      "size": 35520472,
+      "is_dir": true,
+      "insight": true
+    },
+    {
+      "scan_status": "complete",
+      "name": "System Logs",
+      "path": "/Users/me/Library/Logs",
+      "size": 151552,
+      "is_dir": true,
+      "insight": true
+    }
+  ],
+  "total_size": 100339971942
+}

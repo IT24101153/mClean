@@ -1,0 +1,23 @@
+→ DRY RUN MODE, No project artifacts will be removed
+
+Purge Project Artifacts
+
+✓ [DRY RUN] ~/Development/Android/ShopApp/app/build, 351.3MB
+✓ [DRY RUN] ~/Development/Android/ShopApp/build, 14.9MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/ShopApp/app/build, 349.1MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/ShopApp/.gradle, 13.8MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/ShopApp/build, 12.0MB
+✓ [DRY RUN] ~/Development/WEB/lms-web/node_modules, 300.1MB
+✓ [DRY RUN] ~/Development/WEB/lms-web/dist, 1.4MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/SchoolApp/app/build, 100.5MB
+✓ [DRY RUN] ~/Development/WEB/landing-page/node_modules, 57.4MB
+✓ [DRY RUN] ~/Development/WEB/landing-page/dist, 2.0MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/SchoolApp/.gradle, 8.8MB
+✓ [DRY RUN] ~/Development/AndroidStudioProjects/SchoolApp/build, 6.4MB
+
+
+======================================================================
+Dry run complete - no changes made
+Would free approximately: 1.22GB | Items: 12 | Free: 73.46GB
+======================================================================
+

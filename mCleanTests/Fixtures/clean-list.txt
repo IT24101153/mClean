@@ -1,0 +1,188 @@
+# Mole Cleanup Preview - 2026-10-14 23:10:20
+#
+# How to protect files:
+# 1. Run mo clean --whitelist and press Enter to save your selections
+# 2. Append paths below to ~/.config/mole/whitelist, one per line
+# A saved file replaces optional defaults; built-in safety protections still apply.
+#
+# Example:
+#   /Users/*/Library/Caches/com.example.app
+#
+
+
+=== User essentials ===
+/Users/me/Library/Caches/AudioUnitCache  # 16KB
+/Users/me/Library/Caches/GeoServices  # 53.4MB
+/Users/me/Library/Caches/Homebrew  # 38.8MB
+/Users/me/Library/Caches/PassKit  # 4KB
+/Users/me/Library/Caches/claude-cli-nodejs  # 213KB
+/Users/me/Library/Caches/com.nuebling.mac-mouse-fix.helper  # 0B
+/Users/me/Library/Caches/com.titanium.OnyX  # 0B
+/Users/me/Library/Caches/com.yamaha.devicecenter  # 74KB
+/Users/me/Library/Caches/copilot  # 4KB
+/Users/me/Library/Caches/familycircled  # 0B
+/Users/me/Library/Logs/Assistant  # 0B
+/Users/me/Library/Logs/Baseband  # 0B
+/Users/me/Library/Logs/CoreSimulator  # 12KB
+/Users/me/Library/Logs/CrashReporter  # 8KB
+/Users/me/Library/Logs/DiagnosticReports/ExcUserFault_IMDPersistenceAgent-2026-10-14-194808.ips  # 29KB
+/Users/me/Library/Logs/DiagnosticReports/Retired  # 0B
+/Users/me/Library/Logs/DiagnosticReports/SFA-CloudServices.json_2026-10-14-203238_MacBook.diag  # 2KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-ckks.json_2026-10-14-203243_MacBook.diag  # 18KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-local.json_2026-10-14-203244_MacBook.diag  # 1KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-networking.json_2026-10-14-203237_MacBook.diag  # 1KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-pcs.json_2026-10-14-203244_MacBook.diag  # 2KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-rootNetworking.json_2026-10-14-203237_MacBook.diag  # 1KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-sos.json_2026-10-14-203243_MacBook.diag  # 1KB
+/Users/me/Library/Logs/DiagnosticReports/SFA-swtransparency.json_2026-10-14-203234_MacBook.diag  # 1KB
+/Users/me/Library/Logs/DiagnosticReports/spotlightknowledged.updater-2026-10-14-193423.ips  # 37KB
+/Users/me/Library/Logs/PaceSoftwareActivationLogs  # 0B
+/Users/me/Library/Logs/PhotosSearch.aapbz  # 1KB
+/Users/me/Library/Logs/PrivacyPreservingMeasurement  # 0B
+
+=== App caches ===
+/Users/me/Library/Caches/com.apple.helpd/CSHelpIndex.plist  # 14KB
+/Users/me/Library/Caches/com.apple.helpd/Generated  # 2.5MB
+/Users/me/Library/Caches/com.apple.helpd/HSTS.plist  # 1KB
+/Users/me/Library/Caches/com.apple.helpd/HelpCache.plist  # 24KB
+/Users/me/Library/Caches/com.apple.helpd/NSFileProtectionCompleteUntilFirstUserAuthentication  # 864KB
+/Users/me/Library/Caches/com.apple.helpd/fsCachedData  # 3.3MB
+/Users/me/Library/Caches/GeoServices/ActiveTileGroup.pbd  # 292KB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/GeoServices/DirectReadConfigStore.plist  # 1KB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/GeoServices/Experiments.pbd  # 1KB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/GeoServices/ResourceManifest.pbd  # 319KB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/GeoServices/Resources  # 52.7MB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/GeoServices/SearchAttribution.pbd  # 70KB, counted under /Users/me/Library/Caches/GeoServices
+/Users/me/Library/Caches/com.apple.AppleMediaServices/DynamicUI  # 0B
+/Users/me/Library/Caches/com.apple.AppleMediaServices/Engagement  # 860KB
+/Users/me/Library/Caches/com.apple.AppleMediaServices/Metrics  # 987KB
+/Users/me/Library/Caches/com.apple.AppleMediaServices/Storage  # 45KB
+/Users/me/Library/Caches/com.apple.AppleMediaServices/sap-setup-cert.txt  # 3KB
+/Users/me/Library/Caches/com.apple.parsecd/CustomFeedback  # 0B
+/Users/me/Library/Caches/com.apple.parsecd/bag.plist  # 3KB
+
+=== Developer tools ===
+/Users/me/.npm/_cacache/content-v2  # 2.0MB
+/Users/me/.npm/_cacache/index-v5  # 37KB
+/Users/me/.npm/_cacache/tmp  # 2.4MB
+/Users/me/.npm/_npx/4b4c857f6efdfb61  # 0B
+/Users/me/.npm/_npx/6583fba12287d067  # 0B
+/Users/me/.npm/_logs/2026-10-14T16_02_51_279Z-debug-0.log  # 4KB
+/Users/me/.npm/_logs/2026-10-14T16_02_51_280Z-debug-0.log  # 1KB
+/Users/me/.npm/_logs/2026-10-14T16_05_05_242Z-debug-0.log  # 5KB
+/Users/me/.npm/_logs/2026-10-14T16_05_08_231Z-debug-0.log  # 4KB
+/Users/me/.npm/_logs/2026-10-14T16_08_05_301Z-debug-0.log  # 4KB
+/Users/me/.npm/_logs/2026-10-14T16_08_11_298Z-debug-0.log  # 5KB
+/Users/me/.npm/_logs/2026-10-14T17_01_24_764Z-debug-0.log  # 1KB
+/Users/me/.npm/_logs/2026-10-14T17_01_24_765Z-debug-0.log  # 1KB
+/Users/me/.npm/_logs/2026-10-14T17_01_24_767Z-debug-0.log  # 2KB
+/Users/me/.npm/_logs/2026-10-14T17_01_27_881Z-debug-0.log  # 4KB
+/Users/me/.npm/_logs/2026-10-14T17_40_09_097Z-debug-0.log  # 1KB
+/Users/me/Library/Application Support/Claude/Cache/Cache_Data  # 27.7MB
+/Users/me/Library/Application Support/Claude/Cache/No_Vary_Search  # 8KB
+/Users/me/Library/Application Support/Claude/Code Cache/electron-preload  # 254KB
+/Users/me/Library/Application Support/Claude/Code Cache/js  # 3.1MB
+/Users/me/Library/Application Support/Claude/Code Cache/wasm  # 8KB
+/Users/me/Library/Application Support/Claude/GPUCache/data_0  # 8KB
+/Users/me/Library/Application Support/Claude/GPUCache/data_1  # 270KB
+/Users/me/Library/Application Support/Claude/GPUCache/data_2  # 8KB
+/Users/me/Library/Application Support/Claude/GPUCache/data_3  # 8KB
+/Users/me/Library/Application Support/Claude/GPUCache/index  # 263KB
+/Users/me/Library/Application Support/Claude/DawnGraphiteCache/data_0  # 8KB
+/Users/me/Library/Application Support/Claude/DawnGraphiteCache/data_1  # 270KB
+/Users/me/Library/Application Support/Claude/DawnGraphiteCache/data_2  # 8KB
+/Users/me/Library/Application Support/Claude/DawnGraphiteCache/data_3  # 8KB
+/Users/me/Library/Application Support/Claude/DawnGraphiteCache/index  # 263KB
+/Users/me/Library/Application Support/Claude/DawnWebGPUCache/data_0  # 8KB
+/Users/me/Library/Application Support/Claude/DawnWebGPUCache/data_1  # 270KB
+/Users/me/Library/Application Support/Claude/DawnWebGPUCache/data_2  # 8KB
+/Users/me/Library/Application Support/Claude/DawnWebGPUCache/data_3  # 8KB
+/Users/me/Library/Application Support/Claude/DawnWebGPUCache/index  # 263KB
+/Users/me/Library/Application Support/Claude/sentry/queue  # 4KB
+/Users/me/Library/Application Support/Claude/sentry/scope_v3.json  # 17KB
+/Users/me/Library/Logs/CoreSimulator/CoreSimulator.log  # 11KB, counted under /Users/me/Library/Logs/CoreSimulator
+/Users/me/Library/Application Support/Code/logs/20261014T223118  # 852KB
+/Users/me/Library/Application Support/Code/Cache/Cache_Data  # 537KB
+/Users/me/Library/Application Support/Code/Cache/No_Vary_Search  # 8KB
+/Users/me/Library/Application Support/Code/CachedExtensionVSIXs/anthropic.claude-code-2.1.299-darwin-arm64  # 112.9MB
+/Users/me/Library/Application Support/Code/CachedExtensionVSIXs/github.vscode-pull-request-github-0.170.0  # 2.1MB
+/Users/me/Library/Application Support/Code/CachedData/2a59476c9bfcb90b3ddc372c36762471b7dfad1c  # 14.1MB
+/Users/me/Library/Application Support/Code/WebStorage/2/CacheStorage/e2c3bc36-cceb-427b-921d-9178cbf4e2c6  # 6.0MB
+/Users/me/Library/Application Support/Code/WebStorage/2/CacheStorage/index.txt  # 1KB
+/Users/me/.vscode/extensions/anthropic.claude-code-2.1.296-darwin-arm64  # 252.4MB
+/Users/me/.vscode/extensions/github.vscode-pull-request-github-0.166.1  # 9.3MB
+/Users/me/.vscode/extensions/github.vscode-pull-request-github-0.168.0  # 9.6MB
+
+=== Apps & utilities ===
+/Users/me/Library/Logs/Claude/claude.ai-web.log  # 2KB
+/Users/me/Library/Logs/Claude/cowork_vm_node.log  # 2KB
+/Users/me/Library/Logs/Claude/main.log  # 53KB
+/Users/me/Library/Logs/Claude/mcp.log  # 0B
+/Users/me/Library/Logs/Claude/ssh.log  # 1KB
+/Users/me/Library/Logs/Claude/swift.log  # 1KB
+/Users/me/Library/Caches/com.spotify.client/ActorSafetyLists  # 0B
+/Users/me/Library/Caches/com.spotify.client/AmountExtractionHeuristicRegexes  # 0B
+/Users/me/Library/Caches/com.spotify.client/CaptchaProviders  # 0B
+/Users/me/Library/Caches/com.spotify.client/CertificateRevocation  # 0B
+/Users/me/Library/Caches/com.spotify.client/ChromeFeatureState  # 1KB
+/Users/me/Library/Caches/com.spotify.client/Crowd Deny  # 0B
+/Users/me/Library/Caches/com.spotify.client/Data  # 0B
+/Users/me/Library/Caches/com.spotify.client/Dictionaries  # 0B
+/Users/me/Library/Caches/com.spotify.client/FileTypePolicies  # 0B
+/Users/me/Library/Caches/com.spotify.client/First Run  # 0B
+/Users/me/Library/Caches/com.spotify.client/FirstPartySetsPreloaded  # 0B
+/Users/me/Library/Caches/com.spotify.client/GPUPersistentCache  # 0B
+/Users/me/Library/Caches/com.spotify.client/GraphiteDawnCache  # 561KB
+/Users/me/Library/Caches/com.spotify.client/Local State  # 3KB
+/Users/me/Library/Caches/com.spotify.client/MEIPreload  # 0B
+/Users/me/Library/Caches/com.spotify.client/NativeMessagingHosts  # 0B
+/Users/me/Library/Caches/com.spotify.client/OnDeviceHeadSuggestModel  # 0B
+/Users/me/Library/Caches/com.spotify.client/OptimizationHints  # 0B
+/Users/me/Library/Caches/com.spotify.client/OriginTrials  # 0B
+/Users/me/Library/Caches/com.spotify.client/PKIMetadata  # 0B
+/Users/me/Library/Caches/com.spotify.client/PrivacySandboxAttestationsPreloaded  # 0B
+/Users/me/Library/Caches/com.spotify.client/SSLErrorAssistant  # 0B
+/Users/me/Library/Caches/com.spotify.client/Safe Browsing  # 0B
+/Users/me/Library/Caches/com.spotify.client/SafetyTips  # 0B
+/Users/me/Library/Caches/com.spotify.client/Subresource Filter  # 0B
+/Users/me/Library/Caches/com.spotify.client/TrustTokenKeyCommitments  # 0B
+/Users/me/Library/Caches/com.spotify.client/Variations  # 1KB
+/Users/me/Library/Caches/com.spotify.client/WasmTtsEngine  # 0B
+/Users/me/Library/Caches/com.spotify.client/WidevineCdm  # 0B
+/Users/me/Library/Caches/com.spotify.client/ZxcvbnData  # 0B
+/Users/me/Library/Caches/com.spotify.client/attachments  # 0B
+/Users/me/Library/Caches/com.spotify.client/chrome_debug.log  # 0B
+/Users/me/Library/Caches/com.spotify.client/completed  # 0B
+/Users/me/Library/Caches/com.spotify.client/component_crx_cache  # 4KB
+/Users/me/Library/Caches/com.spotify.client/extensions_crx_cache  # 4KB
+/Users/me/Library/Caches/com.spotify.client/new  # 0B
+/Users/me/Library/Caches/com.spotify.client/pending  # 0B
+/Users/me/Library/Caches/com.spotify.client/segmentation_platform  # 49KB
+/Users/me/Library/Caches/com.spotify.client/settings.dat  # 1KB
+
+=== Application Support ===
+/Users/me/Library/Application Support/Code/Code Cache/js  # 8KB
+/Users/me/Library/Application Support/Code/Code Cache/wasm  # 8KB
+/Users/me/Library/Application Support/Code/Code Cache/electron-preload  # 8KB
+/Users/me/Library/Application Support/Code/GPUCache/data_1  # 270KB
+/Users/me/Library/Application Support/Code/GPUCache/data_0  # 8KB
+/Users/me/Library/Application Support/Code/GPUCache/index  # 263KB
+/Users/me/Library/Application Support/Code/GPUCache/data_2  # 8KB
+/Users/me/Library/Application Support/Code/GPUCache/data_3  # 8KB
+/Users/me/Library/Application Support/Code/DawnGraphiteCache/data_1  # 270KB
+/Users/me/Library/Application Support/Code/DawnGraphiteCache/data_0  # 8KB
+/Users/me/Library/Application Support/Code/DawnGraphiteCache/index  # 263KB
+/Users/me/Library/Application Support/Code/DawnGraphiteCache/data_2  # 8KB
+/Users/me/Library/Application Support/Code/DawnGraphiteCache/data_3  # 8KB
+/Users/me/Library/Application Support/Code/DawnWebGPUCache/data_1  # 270KB
+/Users/me/Library/Application Support/Code/DawnWebGPUCache/data_0  # 8KB
+/Users/me/Library/Application Support/Code/DawnWebGPUCache/index  # 263KB
+/Users/me/Library/Application Support/Code/DawnWebGPUCache/data_2  # 8KB
+/Users/me/Library/Application Support/Code/DawnWebGPUCache/data_3  # 8KB
+
+# ============================================
+# Summary
+# ============================================
+# Potential cleanup: 548.6MB
+# Items: 153
+# Categories: 5

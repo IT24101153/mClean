@@ -1,0 +1,105 @@
+
+Clean Your Mac
+
+Dry Run Mode, Preview only, no deletions
+
+◎ System caches need sudo, run sudo -v && mo clean --dry-run for full preview
+
+⚙ Apple Silicon | Free space: 73.46GB
+✓ Whitelist: 19 core patterns active
+  ↳ /Users/me/Library/Caches/ms-playwright*
+  ↳ /Users/me/.gradle/caches/*
+  ↳ /Users/me/.gradle/daemon/*
+  ↳ /Users/me/.ollama/models/*
+  ↳ /Users/me/Library/Caches/com.nssurge.surge-mac/*
+  ↳ /Users/me/Library/Application Support/com.nssurge.surge-mac/*
+  ↳ /Users/me/Library/Caches/org.R-project.R/R/renv/*
+  ↳ /Users/me/Library/Caches/JetBrains*
+  ↳ /Users/me/Library/Caches/com.jetbrains.toolbox*
+  ↳ /Users/me/Library/Caches/tealdeer/tldr-pages
+  ↳ /Users/me/Library/Application Support/JetBrains*
+  ↳ /Users/me/Library/Caches/com.apple.finder
+  ↳ /Users/me/Library/Mobile Documents*
+  ↳ /Users/me/Library/Caches/com.apple.FontRegistry*
+  ↳ /Users/me/Library/Caches/com.apple.spotlight*
+  ↳ /Users/me/Library/Caches/com.apple.Spotlight*
+  ↳ /Users/me/Library/Caches/CloudKit*
+  ↳ /Users/me/Library/Caches/pypoetry/virtualenvs*
+
+➤ User essentials
+  → User app cache · 10 items, 92.5MB dry
+  → User app logs · 18 items, 115KB dry
+  ◎ Trash · skipped, grant Full Disk Access to your terminal
+
+➤ App caches
+  → macOS Help system cache · 6 items, 6.7MB dry
+  → Maps geo tile cache · 6 items, 53.4MB dry
+  → Apple Media Services cache · 5 items, 1.9MB dry
+  → Parsecd cache · 2 items, 3KB dry
+
+➤ Browsers
+  ✓ Nothing to clean
+
+➤ Cloud & Office
+  ✓ Nothing to clean
+
+➤ Developer tools
+  → npm cache · would clean
+  → npm cache directory · 3 items, 4.4MB dry
+  → npm npx cache · 2 items, 0B dry
+  → npm logs · 11 items, 33KB dry
+  → Corepack cache · would clean
+  → pip cache · would clean
+  → Claude cache · 2 items, 27.7MB dry
+  → Claude code cache · 3 items, 3.4MB dry
+  → Claude GPU cache · 5 items, 558KB dry
+  → Claude Dawn cache · 5 items, 558KB dry
+  → Claude WebGPU cache · 5 items, 558KB dry
+  → Claude sentry cache · 2 items, 22KB dry
+  → CoreSimulator logs · 11KB dry
+  → VS Code logs · 852KB dry
+  → VS Code cache · 2 items, 545KB dry
+  → VS Code extension cache · 2 items, 115.0MB dry
+  → VS Code data cache · 14.1MB dry
+  → VS Code webview cache · 2 items, 6.0MB dry
+  → Obsolete VS Code extension · 252.4MB dry
+  → Obsolete VS Code extension · 9.3MB dry
+  → Obsolete VS Code extension · 9.6MB dry
+
+➤ Apps & utilities
+  → Claude logs · 6 items, 59KB dry
+  → Spotify cache · 39 items, 625KB dry
+
+➤ Virtualization
+  ✓ Nothing to clean
+
+➤ Application Support
+  → Application Support logs/caches · 16.3MB dry
+
+➤ App leftovers
+  ✓ Nothing to clean
+
+➤ Apple Silicon updates
+  ✓ Nothing to clean
+
+➤ Device backups & firmware
+  ✓ Nothing to clean
+
+➤ Time Machine
+  ✓ Nothing to clean
+
+➤ Large files
+  ⊙ Simulator data · 3.27GB · ~/Library/Developer/CoreSimulator/Devices
+  ⊙ NuGet packages · 1.37GB · ~/.nuget/packages
+
+➤ Project artifacts
+  ⊙ Build artifacts · 14+ dirs, 494.4MB+ · mo purge
+
+
+======================================================================
+Dry run complete - no changes made
+Potential space: 548.6MB | Items: 153 | Categories: 5
+Detailed file list: /Users/me/.config/mole/clean-list.txt
+Use mo clean --whitelist to add protection rules
+======================================================================
+

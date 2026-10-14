@@ -1,0 +1,24 @@
+→ DRY RUN MODE, No app files or settings will be modified
+
+[2J[H◎ Matched 1 app(s):
+1. Mac Mouse Fix  20.3MB  |  Last: 2m ago
+
+Proceed with uninstallation? [y/N] 
+Files to be removed:
+
+◎ Mac Mouse Fix , 20.4MB
+  ✓ /Applications/Mac Mouse Fix.app , 20.3MB
+  ✓ ~/Library/Application Support/com.nuebling.mac-mouse-fix , 12KB
+  ✓ ~/Library/Preferences/com.nuebling.mac-mouse-fix.plist , 4KB
+  ✓ ~/Library/Caches/com.nuebling.mac-mouse-fix.helper
+  ✓ ~/Library/HTTPStorages/com.nuebling.mac-mouse-fix.helper , 61KB
+  ✓ ~/Library/Preferences/com.nuebling.mac-mouse-fix.helper.plist , 4KB
+
+➤ Remove 1 app, 20.4MB  Enter confirm, ESC cancel: 
+
+======================================================================
+Uninstall dry run complete
+Would remove 1 app, would free 20.4MB: Mac Mouse Fix
+======================================================================
+
+[DRY RUN] Would refresh LaunchServices and update Dock entries

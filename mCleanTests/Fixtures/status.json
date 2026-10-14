@@ -1,0 +1,207 @@
+{
+  "collected_at": "2026-10-14T23:10:46.098129+05:30",
+  "host": "MacBook.local",
+  "platform": "darwin 27.0.1",
+  "uptime": "3h 32m",
+  "uptime_seconds": 12761,
+  "procs": 763,
+  "hardware": {
+    "model": "MacBook Air",
+    "cpu_model": "Apple M2",
+    "total_ram": "16.0 GB",
+    "disk_size": "228.3 GB",
+    "os_version": "macOS 27.0.1",
+    "refresh_rate": ""
+  },
+  "health_score": 100,
+  "health_score_msg": "Excellent",
+  "cpu": {
+    "usage": 1.2361245024306573,
+    "per_core": [
+      0,
+      9.888996019445258,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "per_core_estimated": false,
+    "load1": 1.71826171875,
+    "load5": 1.72509765625,
+    "load15": 1.78759765625,
+    "core_count": 8,
+    "logical_cpu": 8,
+    "p_core_count": 4,
+    "e_core_count": 4
+  },
+  "gpu": [
+    {
+      "name": "Apple M2",
+      "usage": -1,
+      "memory_used": 0,
+      "memory_total": 0,
+      "core_count": 8,
+      "note": "sppci_vendor_Apple"
+    }
+  ],
+  "memory": {
+    "used": 9334390784,
+    "total": 17179869184,
+    "available": 7845478400,
+    "used_percent": 54.33330535888672,
+    "swap_used": 0,
+    "swap_total": 0,
+    "cached": 4913577984,
+    "pressure": ""
+  },
+  "disks": [
+    {
+      "mount": "/",
+      "device": "/dev/disk3s1s1",
+      "used": 167098589184,
+      "total": 245107195904,
+      "used_percent": 68.17367746699968,
+      "fstype": "apfs",
+      "external": false,
+      "smart_status": "verified",
+      "purgeable": 4543111168
+    },
+    {
+      "mount": "/Library/Developer/CoreSimulator/Volumes/iOS_23F77",
+      "device": "/dev/disk5s1",
+      "used": 17617674240,
+      "total": 18083741696,
+      "used_percent": 97.42272664675868,
+      "fstype": "apfs",
+      "external": true,
+      "smart_status": "unsupported"
+    }
+  ],
+  "trash_size": 0,
+  "trash_approx": false,
+  "disk_io": {
+    "read_rate": 0,
+    "write_rate": 0
+  },
+  "network": [
+    {
+      "name": "en0",
+      "rx_rate_mbs": 0.013132095336914062,
+      "tx_rate_mbs": 0.0018978118896484375,
+      "ip": "192.0.2.1"
+    },
+    {
+      "name": "en3",
+      "rx_rate_mbs": 0,
+      "tx_rate_mbs": 0,
+      "ip": ""
+    },
+    {
+      "name": "en4",
+      "rx_rate_mbs": 0,
+      "tx_rate_mbs": 0,
+      "ip": ""
+    }
+  ],
+  "network_history": {
+    "rx_history": [
+      0.013132095336914062
+    ],
+    "tx_history": [
+      0.0018978118896484375
+    ]
+  },
+  "proxy": {
+    "enabled": true,
+    "type": "TUN",
+    "host": "utun0+"
+  },
+  "batteries": [
+    {
+      "percent": 77,
+      "status": "discharging",
+      "time_left": "10:06",
+      "health": "Good",
+      "cycle_count": 114,
+      "capacity": 90
+    }
+  ],
+  "thermal": {
+    "cpu_temp": 0,
+    "gpu_temp": 0,
+    "battery_temp": 0,
+    "fan_speed": 0,
+    "fan_count": 0,
+    "system_power": 0,
+    "adapter_power": 0,
+    "battery_power": -9.805
+  },
+  "sensors": null,
+  "bluetooth": [
+    {
+      "name": "No devices",
+      "connected": false,
+      "battery": ""
+    }
+  ],
+  "top_processes": [
+    {
+      "pid": 7865,
+      "ppid": 1,
+      "name": "XprotectService",
+      "command": "XprotectService",
+      "cpu": 11.6,
+      "memory": 0.2,
+      "memory_bytes": 40583168
+    },
+    {
+      "pid": 261,
+      "ppid": 1,
+      "name": "syspolicyd",
+      "command": "syspolicyd",
+      "cpu": 6.4,
+      "memory": 0.3,
+      "memory_bytes": 45334528
+    },
+    {
+      "pid": 20854,
+      "ppid": 10481,
+      "name": "status-go",
+      "command": "status-go",
+      "cpu": 5.3,
+      "memory": 0.1,
+      "memory_bytes": 18481152
+    },
+    {
+      "pid": 167,
+      "ppid": 1,
+      "name": "WindowServer",
+      "command": "WindowServer",
+      "cpu": 4.5,
+      "memory": 1.1,
+      "memory_bytes": 188809216
+    },
+    {
+      "pid": 6054,
+      "ppid": 6021,
+      "name": "Code Helper (Renderer)",
+      "command": "Code Helper (Renderer)",
+      "cpu": 3.2,
+      "memory": 1.9,
+      "memory_bytes": 331677696
+    }
+  ],
+  "process_collected_at": "2026-10-14T23:10:46.098129+05:30",
+  "process_stale": false,
+  "zombie_count": 0,
+  "zombie_parents": [],
+  "zombie_parents_complete": true,
+  "process_watch": {
+    "enabled": true,
+    "cpu_threshold": 100,
+    "window": "5m0s"
+  },
+  "process_alerts": []
+}
