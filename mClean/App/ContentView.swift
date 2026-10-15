@@ -38,6 +38,7 @@ struct ContentView: View {
         case .apps: AppsView()
         case .space: SpaceView()
         case .installers: InstallersView()
+        case .audio: AudioView()
         case .optimize: OptimizeView()
         case .developer: DeveloperView()
         case .history: HistoryView()
@@ -61,6 +62,9 @@ private struct Sidebar: View {
                 row(.apps)
                 row(.space)
                 row(.installers)
+            }
+            Section("Audio") {
+                row(.audio)
             }
             Section("Maintain") {
                 row(.optimize)

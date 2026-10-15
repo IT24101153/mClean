@@ -15,6 +15,7 @@
 		C1A00000000000000000001A /* Exceptions for "mClean" folder in "mCleanTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Engine/AudioPlugins.swift,
 				Engine/ByteSize.swift,
 				Engine/InstallerScanner.swift,
 				Engine/MoleModels.swift,

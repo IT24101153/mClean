@@ -16,6 +16,7 @@ mkdir -p "${DEST}"
 rsync -a --delete "${ENGINE}/Mole/" "${DEST}/Mole/"
 install -m 755 "${ENGINE}/askpass.sh" "${DEST}/askpass.sh"
 install -m 755 "${ENGINE}/mclean-protect.sh" "${DEST}/mclean-protect.sh"
+install -m 755 "${ENGINE}/mclean-admin-trash.sh" "${DEST}/mclean-admin-trash.sh"
 
 for helper in "${DEST}/Mole/bin/analyze-go" "${DEST}/Mole/bin/status-go"; do
     if [ -f "${helper}" ]; then

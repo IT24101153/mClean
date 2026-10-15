@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum Screen: String, CaseIterable, Identifiable, Hashable {
-    case overview, junk, apps, space, installers, optimize, developer, history
+    case overview, junk, apps, space, installers, audio, optimize, developer, history
 
     var id: Self { self }
 
@@ -12,6 +12,7 @@ enum Screen: String, CaseIterable, Identifiable, Hashable {
         case .apps: "Applications"
         case .space: "Disk Space"
         case .installers: "Installers"
+        case .audio: "Audio Plugins"
         case .optimize: "Optimize"
         case .developer: "Developer Junk"
         case .history: "History"
@@ -25,6 +26,7 @@ enum Screen: String, CaseIterable, Identifiable, Hashable {
         case .apps: "square.grid.2x2"
         case .space: "chart.pie"
         case .installers: "shippingbox"
+        case .audio: "pianokeys"
         case .optimize: "bolt.heart"
         case .developer: "hammer"
         case .history: "clock.arrow.circlepath"
@@ -38,6 +40,7 @@ enum Screen: String, CaseIterable, Identifiable, Hashable {
         case .apps: .blue
         case .space: .indigo
         case .installers: .pink
+        case .audio: .purple
         case .optimize: .orange
         case .developer: .teal
         case .history: .gray
@@ -65,6 +68,7 @@ final class AppState {
     let apps = AppsModel()
     let space = SpaceModel()
     let installers = InstallersModel()
+    let audio = AudioModel()
     let optimize = OptimizeModel()
     let developer = DeveloperModel()
     let history = HistoryModel()

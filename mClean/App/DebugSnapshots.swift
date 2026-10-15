@@ -61,6 +61,8 @@ enum DebugSnapshots {
         case "optimize-check": state.optimize.check(with: engine)
         case "developer-scan": state.developer.scan(with: engine)
         case "installers-scan": state.installers.scan()
+        case "audio-scan": state.audio.scan()
+        case "audio-cleanup": state.audio.tab = .cleanUp
         case "space-home": state.space.open(NSHomeDirectory(), named: "Home", with: engine)
         case "junk-expand": break
         default: break

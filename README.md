@@ -10,6 +10,7 @@ A minimal, native macOS cleaner built in SwiftUI on top of the open-source
 | Applications | Remove an app and its related files (to the Trash); list shows instantly from a cache | `mole uninstall --list`, `--dry-run`, then real run |
 | Disk Space | Drill into folders, find large files, delete items (to the Trash, confirmed twice) | `mole analyze --json <path>` |
 | Installers | Leftover `.dmg`, `.pkg`, `.iso`, `.xip` and installer `.zip` files, picked one by one | Native scan following Mole's rules |
+| Audio Plugins | AU, VST, VST3, AAX and CLAP plugins grouped per product; uninstall (to the Trash, with settings and optional presets); reset plugin caches; remove unused AAX versions; presets from vendors no longer installed | Native scan |
 | Optimize | Refresh caches, rebuild indexes, repair preferences | `mole optimize --dry-run`, then `mole optimize` |
 | Developer Junk | `node_modules`, `build`, `.gradle` and similar folders, picked one by one (to the Trash) | `mole purge --dry-run` |
 | History | Real cleanups from Mole's log plus mClean's own actions | `mole history --json` |
@@ -85,6 +86,14 @@ writes `AppIcon.appiconset` and `Logo.imageset`.
   through `Engine/mclean-protect.sh`, which calls Mole's own functions. Saving
   the list replaces Mole's optional defaults, so the script always writes them
   back along with your choices.
+- Audio Plugins reads each plugin's `Info.plist`. Formats of one product are
+  grouped by the name stored in the bundle (iZotope's files differ per format;
+  the stored name doesn't), and vendors are linked through bundle IDs because
+  iZotope's VST3 and AAX copyright lines name its parent company. Apple's
+  plugins are hidden and never removed. System-wide plugins are root-owned, so
+  `Engine/mclean-admin-trash.sh` moves them to the Trash through macOS's
+  administrator prompt. It accepts only paths in the audio plugin and preset
+  folders, refuses links and `..`, and gives moved items back to the user.
 - Developer Junk, Installers and Disk Space move items to the Trash
   themselves, so mClean keeps its own activity log for History
   (`~/Library/Application Support/mClean/activity.json`).
