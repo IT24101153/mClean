@@ -22,6 +22,26 @@ background. Quitting while a cleanup runs asks first, then stops it the same
 way Cancel does. The first launch shows a welcome screen that explains Full
 Disk Access.
 
+## Screenshots
+
+<table>
+<tr>
+<td align="center"><img src="mClean%20SS/1.png" width="380"><br><sub><b>Overview</b></sub></td>
+<td align="center"><img src="mClean%20SS/2.png" width="380"><br><sub><b>System Junk</b></sub></td>
+<td align="center"><img src="mClean%20SS/3.png" width="380"><br><sub><b>Applications</b></sub></td>
+</tr>
+<tr>
+<td align="center"><img src="mClean%20SS/4.png" width="380"><br><sub><b>Disk Space</b></sub></td>
+<td align="center"><img src="mClean%20SS/5.png" width="380"><br><sub><b>Installers</b></sub></td>
+<td align="center"><img src="mClean%20SS/6.png" width="380"><br><sub><b>Audio Plugins</b></sub></td>
+</tr>
+<tr>
+<td align="center"><img src="mClean%20SS/7.png" width="380"><br><sub><b>Optimize</b></sub></td>
+<td align="center"><img src="mClean%20SS/8.png" width="380"><br><sub><b>Developer Junk</b></sub></td>
+<td align="center"><img src="mClean%20SS/9.png" width="380"><br><sub><b>History</b></sub></td>
+</tr>
+</table>
+
 ## Requirements
 
 - macOS 14 or later
